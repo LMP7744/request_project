@@ -1,7 +1,7 @@
 import pytest
-from request_project.api.login import LoginApi
-from request_project.config import Base_Dir
-from request_project.data.login import get_data
+from api.login import LoginApi
+from config import Base_Dir
+from data.login import get_data
 
 class TestLogin:
     uuid=None

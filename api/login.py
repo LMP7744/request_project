@@ -1,6 +1,6 @@
 #接口封装，实现接口信息封装，关注接口如何被调用
 import requests
-from request_project.config import Base_Url
+from config import Base_Url
 
 class LoginApi:
     uuid=None

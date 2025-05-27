@@ -1,7 +1,7 @@
-from request_project.api.course import CourseApi
-from request_project.api.login import LoginApi
-from request_project.config import Base_Dir
-from request_project.data.course import get_data
+from api.course import CourseApi
+from api.login import LoginApi
+from config import Base_Dir
+from data.course import get_data
 
 class TestCourseUpdate:
     token=None

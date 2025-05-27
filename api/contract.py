@@ -5,7 +5,7 @@
 # 4.请求体 json等multipart/formdata
 import requests
 
-from request_project.config import Base_Url
+from config import Base_Url
 
 
 class Contract:

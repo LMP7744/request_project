@@ -1,7 +1,8 @@
-from request_project.api.contract import Contract
-from request_project.api.course import CourseApi
-from request_project.api.login import LoginApi
-from request_project.config import Base_Dir
+from api.contract import Contract
+from api.course import CourseApi
+from api.login import LoginApi
+from config import Base_Dir
+import pytest
 
 class TestTotalBussiness:
     token=None

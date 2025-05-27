@@ -4,7 +4,7 @@
 # 3.请求头 Content-Type Authorization
 # 4.请求体 json等
 import requests
-from request_project.config import Base_Url
+from config import Base_Url
 
 
 class CourseApi:

@@ -1,5 +1,5 @@
 import json
-from request_project.config import Base_Dir
+from config import Base_Dir
 
 data_list=[]
 def get_data(file_path):

@@ -1,5 +1,5 @@
-from request_project.api.course import CourseApi
-from request_project.api.login import LoginApi
+from api.course import CourseApi
+from api.login import LoginApi
 
 class TestCourseDelete:
     token=None
